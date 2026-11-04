@@ -1,4 +1,4 @@
-# 🛒 Grocery Basket Insights: AI-Powered Cross-Selling Analytics
+# Grocery Basket Insights: AI-Powered Cross-Selling Analytics
 
 ![Grocery Basket Insights](https://img.shields.io/badge/Grocery--Basket--Insights-blue?style=for-the-badge&logo=shopping-cart&logoColor=white)
 
@@ -14,18 +14,18 @@
 
 ---
 
-## 🎯 Project Overview
+## Project Overview
 
 Grocery Basket Insights is a demo application developed for the 2025 Hackathon, designed to analyze customer transaction data and predict product bundles for effective cross-selling. Using association rule mining (via mlxtend), it processes shopping data to recommend product combinations, helping retailers optimize sales strategies and improve customer experiences.
 
-### 🌍 Problem Statement
+### Problem Statement
 
 - **Sales Opportunities**: Missed chances to upsell related products due to lack of insights.
 - **Customer Behavior**: Limited understanding of buying patterns across 3,331 customers.
 - **Data Utilization**: Untapped potential in transaction data for targeted marketing.
 - **Efficiency**: Manual analysis of 39,324 association rules is time-consuming.
 
-### 🚀 Solution
+### Solution
 
 - **AI-Powered Recommendations**: Identifies top product associations with confidence scores.
 - **Interactive Interface**: User-friendly frontend with visualizations and filters.
@@ -34,7 +34,7 @@ Grocery Basket Insights is a demo application developed for the 2025 Hackathon, 
 
 ---
 
-## 🏗️ System Architecture
+## System Architecture
 
 ```
 ┌─────────────────┐    ┌─────────────────┐    ┌─────────────────┐
@@ -50,28 +50,28 @@ Grocery Basket Insights is a demo application developed for the 2025 Hackathon, 
 
 ---
 
-## 🌟 Current Features
+## Current Features
 
-### 🎯 Core Functionality
+### Core Functionality
 
 - **Association Rule Mining**: Generates 39,324 rules from 3,331 customer transactions.
 - **Top 10 Associations**: Displays the most confident product bundles.
 - **Real-Time Insights**: Sub-second processing for uploaded data.
 - **User-Friendly Design**: Responsive interface with dark/light mode toggle.
 
-### 📊 Data Visualization
+### Data Visualization
 
 - **Confidence Chart**: Bar chart showing association confidence levels.
 - **Model Score**: Displays overall model performance (e.g., 0.77).
 - **Dynamic Filters**: Adjust by customer ID and minimum confidence.
 
-### 🗺️ Data Coverage
+### Data Coverage
 
 - **Customer Base**: Analyzes data from 3,331 unique customers.
 - **Product Range**: Supports multiple product categories from transactions.
 - **Exportable Results**: Full dataset available as CSV.
 
-### 🔧 Technical Features
+### Technical Features
 
 - **Flask Backend**: Python-based API for data processing.
 - **React Frontend**: Modern JavaScript framework with Tailwind CSS.
@@ -80,30 +80,30 @@ Grocery Basket Insights is a demo application developed for the 2025 Hackathon, 
 
 ---
 
-## 🚀 Proposed Features (Roadmap)
+## Proposed Features (Roadmap)
 
-### 📱 Enhanced User Experience
+### Enhanced User Experience
 
 - **Multi-Format Export**: Add Excel and PDF export options.
 - **Offline Mode**: Cache results for offline access.
 - **User Roles**: Basic login for sales/marketing teams.
 - **Notifications**: Alerts for high-confidence opportunities.
 
-### 📊 Advanced Analytics
+### Advanced Analytics
 
 - **Sorting Options**: Sort by confidence or customer frequency.
 - **Pagination**: Navigate large association lists.
 - **Trend Analysis**: Track changes in buying patterns over time.
 - **Segmentation**: Group customers by behavior.
 
-### 🤖 AI Enhancements
+### AI Enhancements
 
 - **Predictive Modeling**: Forecast future buying trends.
 - **Personalization**: Tailor recommendations per customer.
 - **Real-Time Updates**: Periodic data refresh from backend.
 - **Natural Language**: Simple query interface for non-tech users.
 
-### 🌍 Expanded Applications
+### Expanded Applications
 
 - **Multi-Retailer Support**: Adapt for different store chains.
 - **Category Insights**: Deep dive into specific product categories.
@@ -112,7 +112,7 @@ Grocery Basket Insights is a demo application developed for the 2025 Hackathon, 
 
 ---
 
-## 🧮 How Associations Are Calculated
+## How Associations Are Calculated
 
 The tool uses association rule mining to identify product relationships based on transaction data. Here’s the simplified process:
 
@@ -157,7 +157,7 @@ Top 10 = Sort by Confidence and Select Highest
 
 ---
 
-## 🚀 Quick Start
+## Quick Start
 
 ### Prerequisites
 
@@ -211,7 +211,7 @@ Top 10 = Sort by Confidence and Select Highest
 
 ---
 
-## 🏗️ Project Structure
+## Project Structure
 
 ```
 grocery-basket-insights/
@@ -234,7 +234,7 @@ grocery-basket-insights/
 
 ---
 
-## 🔧 Backend API Endpoints
+## Backend API Endpoints
 
 ### Core Endpoints
 
@@ -260,7 +260,7 @@ curl -X POST "http://localhost:5000/predict" \
 
 ---
 
-## 🎨 Frontend Features
+## Frontend Features
 
 ### Dashboard Components
 
@@ -279,7 +279,7 @@ curl -X POST "http://localhost:5000/predict" \
 
 ---
 
-## 🧪 Testing
+## Testing
 
 ### Backend Testing
 
@@ -298,7 +298,7 @@ npm test
 
 ---
 
-## 🚀 Deployment
+## Deployment
 
 ### Backend Deployment
 
@@ -327,7 +327,7 @@ vercel --prod
 
 ---
 
-## 📊 Model Performance
+## Model Performance
 
 - **Rules Generated**: 39,324 from 3,331 customers.
 - **Algorithm**: Apriori (mlxtend).
@@ -337,7 +337,7 @@ vercel --prod
 
 ---
 
-## 🤝 Contributing
+## Contributing
 
 1. Fork the repository
 2. Create a feature branch (`git checkout -b feature/amazing-feature`)
@@ -355,30 +355,26 @@ vercel --prod
 
 ---
 
-## 📄 License
+## License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 ---
 
-## 🙏 Acknowledgments
+## Acknowledgments
 
 - Open-source community for mlxtend, Flask, and React.
 - Retail data providers for transaction insights.
 
 ---
 
-## 📞 Support
+## Support
 
 - **Documentation**: Local Docs
 - **Issues**: GitHub Issues
 - **Email**: okechobonyo@gmail.com
 
----
 
-**Built with ❤️ for smarter retail solutions**
-
----
 
 ## 🔄 Recent Updates
 
